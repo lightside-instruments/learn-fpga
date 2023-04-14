@@ -2,16 +2,15 @@ Ice4pi Tutorial
 =================
 
 
-The ice4pi open-source KiCAD project of a Raspberry Pi shield is
-based on the design of IceStick.
-
-![](Images/ice4pi.jpg)
+The [ice4pi open-source KiCAD project]([https://github.com/lightside-instruments/ice4pi]) of a Raspberry Pi shield is based on the design of IceStick.
 
 Ideally a bitstream and firmware for IceStick will work for ice4pi.
 
+![](Images/ice4pi.jpg)
+
 There are few exceptions (the IrDA transceiver is removed as well as the unpopulated side connectors).
 
-It obviously has added 40-pin Raspberry Pi interface with all IO pins connected to the FPGA. Which enables you to interact with any available shields for Raspberry Pi and the Raspberry Pi itself.
+It obviously has added 40-pin Raspberry Pi connector interface with all IO pins connected to the available FPGA IOs. Which enables you to interact with Raspberry Pi shields and the Raspberry Pi itself.
 
 The SPI Flash programming interface is connected to the Raspberry Pi interface. This allows you to reload and restart the logic on the shield without rebooting the Pi.
 The Serial TX/RX pins are connected to the Raspberry Pi interface too.
