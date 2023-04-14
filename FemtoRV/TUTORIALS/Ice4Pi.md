@@ -2,7 +2,7 @@ Ice4pi Tutorial
 =================
 
 
-The ice4pi board open-source KiCAD project of a Raspberry Pi shield that is
+The ice4pi open-source KiCAD project of a Raspberry Pi shield is
 based on the design of IceStick.
 
 ![](Images/ice4pi.jpg)
@@ -41,7 +41,7 @@ sudo TOOLS/ice4pi_prog femtosoc.bin FIRMWARE/EXAMPLES/hello.spiflash.bin
 There is 1 difference of significance in the BOM for the ice4pi-2.4-1 version:
 
 1. The SPI flash chip used on IceStick is N25Q032A13ESC40F while the one used
-on ice4pi-2.4-1 is W25Q32JVSNIQ
+on ice4pi-2.4-1 is W25Q32JVSNIQ. In later revisions there is no difference.
 
 
 Now with this in mind you can go through the detailed [ICESTICK tutorial](ICESTICK.md) !
