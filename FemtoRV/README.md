@@ -12,8 +12,8 @@ Quick links:
 - [ECP5 eval board tutorial](TUTORIALS/ECP5_EVN.md)
 - [FOMU tutorial](TUTORIALS/FOMU.md)
 - [ARTY tutorial](TUTORIALS/arty.md)
-- [Ice4Pi tutorial](TUTORIALS/ice4pi.md)
 - [LiteX tutorial](https://github.com/BrunoLevy/learn-fpga/tree/master/LiteX)
+- [Ice4Pi tutorial](TUTORIALS/Ice4Pi.md)
 - [Adding a new board](TUTORIALS/newboard.md)
 - [More documentation...](TUTORIALS/README.md)
 
