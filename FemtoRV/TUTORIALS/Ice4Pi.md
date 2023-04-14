@@ -2,7 +2,7 @@ Ice4pi Tutorial
 =================
 
 
-The [ice4pi open-source KiCAD project]([https://github.com/lightside-instruments/ice4pi]) of a Raspberry Pi shield is based on the design of IceStick.
+The [ice4pi open-source KiCAD project](https://github.com/lightside-instruments/ice4pi) of a Raspberry Pi shield is based on the design of IceStick.
 
 Ideally a bitstream and firmware for IceStick will work for ice4pi.
 
