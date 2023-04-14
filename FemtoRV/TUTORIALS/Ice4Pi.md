@@ -1,24 +1,24 @@
-ice4pi Tutorial
+Ice4pi Tutorial
 =================
 
 
-The ice4pi board is a Raspberry Pi shield that is
-based on the design of the IceStick.
+The ice4pi board open-source KiCAD project of a Raspberry Pi shield that is
+based on the design of IceStick.
 
 ![](Images/ice4pi.jpg)
 
-So ideally a bitstream and firmware for IceStick should work for ice4pi.
+Ideally a bitstream and firmware for IceStick will work for ice4pi.
 
 There are few exceptions (the IrDA transceiver is removed as well as the unpopulated side connectors).
 
-It obviously has the additional 40-pin Raspberry Pi interface with all IOs connected to the FPGA. Which enables you to develop something useful.
+It obviously has added 40-pin Raspberry Pi interface with all IO pins connected to the FPGA. Which enables you to interact with any available shields for Raspberry Pi and the Raspberry Pi itself.
 
-The SPI Flash programming interface is connected to the Raspberry Pi interface. This allows you to reload and restart the logic on the shield.
+The SPI Flash programming interface is connected to the Raspberry Pi interface. This allows you to reload and restart the logic on the shield without rebooting the Pi.
 The Serial TX/RX pins are connected to the Raspberry Pi interface too.
 
 And you can edit the open-source KiCAD design and use the board as base for your own design.
 
-This tutorial is short because it only document the differences between the ice4pi and IceStick boards.
+This tutorial is short because it only documents the differences between the ice4pi and IceStick boards.
 And those are kept to a minimum intentionally.
 
 In short for building the project you will use 'make ICE4PI'
@@ -38,7 +38,7 @@ cd ../../
 sudo TOOLS/ice4pi_prog femtosoc.bin FIRMWARE/EXAMPLES/hello.spiflash.bin
 ```
 
-There is one differences of significance in the BOM for the ice4pi-2.4-1:
+There is 1 difference of significance in the BOM for the ice4pi-2.4-1 version:
 
 1. The SPI flash chip used on IceStick is N25Q032A13ESC40F while the one used
 on ice4pi-2.4-1 is W25Q32JVSNIQ
