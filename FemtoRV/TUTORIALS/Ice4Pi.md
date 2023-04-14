@@ -15,10 +15,9 @@ It obviously has added 40-pin Raspberry Pi connector interface with all IO pins 
 The SPI Flash programming interface is connected to the Raspberry Pi interface. This allows you to reload and restart the logic on the shield without rebooting the Pi.
 The Serial TX/RX pins are connected to the Raspberry Pi interface too.
 
-And you can edit the open-source KiCAD design and use the board as base for your own design.
+You can extend the open-source KiCAD design and use the board as base for your own design.
 
-This tutorial is short because it only documents the differences between the ice4pi and IceStick boards.
-And those are kept to a minimum intentionally.
+This tutorial is short because it only documents the differences between the ice4pi and IceStick boards. Those are kept to a minimum intentionally.
 
 In short for building the project you will use 'make ICE4PI'
 instead of 'make ICESTICK'
@@ -39,7 +38,7 @@ sudo TOOLS/ice4pi_prog femtosoc.bin FIRMWARE/EXAMPLES/hello.spiflash.bin
 
 There is 1 difference of significance in the BOM for the ice4pi-2.4-1 version:
 
-1. The SPI flash chip used on IceStick is N25Q032A13ESC40F while the one used
+- The SPI flash chip used on IceStick is N25Q032A13ESC40F while the one used
 on ice4pi-2.4-1 is W25Q32JVSNIQ. In later revisions there is no difference.
 
 
